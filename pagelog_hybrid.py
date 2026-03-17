@@ -247,5 +247,6 @@ def navigate(click, b_n, hdr, leaves, state):
     
     return fig, {"level": lvl, "l1": l1, "l2": l2}, crumb, btn_s
 
+server = app.server
 if __name__ == "__main__":
     app.run(debug=True)
